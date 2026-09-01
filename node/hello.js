@@ -1,8 +1,9 @@
-const add = () =>
-{
-    let a=1;
-    console.log(a);
-    return a + 1;
+let user = {
+    name : 'Naveen',
+    dob : '1990-01-01'
 }
-
-add();
+console.log(user.name);
+user.name = 'Naveen K';
+console.log(user.name);
+delete user.name;
+console.log(user.name);
