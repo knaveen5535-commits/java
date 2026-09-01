@@ -1,6 +1,6 @@
 package chennai;
 
-class mythread extends Thread
+class mythread implements Runnable
 {
     public void run ()
     {
@@ -25,7 +25,8 @@ class mythread extends Thread
     {
         mythread mt = new mythread();
         System.out.println("Before starting thread");
-        mt.start();
+        Thread t = new Thread(mt);
+        t.start();
         
     }
 }
