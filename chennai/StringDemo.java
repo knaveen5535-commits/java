@@ -7,10 +7,17 @@ public class StringDemo
         String s1="Hello";
         // s1 = s1.concat (" World");
         // System.out.println(s1);
-        String s2="Hello";
-        String s3=new String("Hello");
-        //System.out.println(s1==s2);
-        System.out.println(s1==s3);
-        System.out.println(s1.equals(s3));
+        // String s2="Hello";
+        // String s3=new String("Hello");
+        // //System.out.println(s1==s2);
+        // System.out.println(s1==s3);
+        // System.out.println(s1.equals(s3));
+        // System.out.println(s1.equalsIgnoreCase(s2));
+        System.out.println(s1.length());
+        System.out.println(s1.charAt(0));
+        System.out.println(s1.startsWith("H"));
+        System.out.println(s1.endsWith("o"));
+        System.out.println();
+
     }
 }
