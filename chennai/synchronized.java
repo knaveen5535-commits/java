@@ -68,8 +68,8 @@ class Q
     public static void main(String args[])
     {
         Q q=new Q();
-        Pc2 p=new Pc2("Producer",q);
-        Pc2 c=new Pc2("Consumer",q);
+        new Pc2("Producer",q);
+        new Pc2("Consumer",q);
         System.out.println("Press Control-C to stop.");
     }
 }
